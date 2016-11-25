@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="MessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaoxi.png" translatesAutoresizingMaskIntoConstraints="NO" id="HeB-By-cYA">
+                        <rect key="frame" x="8" y="5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Cu7-PW-yL2"/>
+                            <constraint firstAttribute="height" constant="60" id="IjL-bB-qqz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKD-bs-JkN">
+                        <rect key="frame" x="179" y="8" width="195" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="SKj-t9-PmP"/>
+                            <constraint firstAttribute="width" constant="195" id="amI-9k-IVB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjh-hc-x9r">
+                        <rect key="frame" x="76" y="8" width="67" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="GrH-0W-bwV"/>
+                            <constraint firstAttribute="width" constant="67" id="arQ-wI-6aH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大师大师大师大师大师大师大师的撒的撒打算打算的撒的撒打算打算打算打算打算打算打算" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oS-oP-POJ">
+                        <rect key="frame" x="76" y="35" width="298" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Pjh-hc-x9r" firstAttribute="leading" secondItem="HeB-By-cYA" secondAttribute="trailing" constant="8" id="Kmn-xB-0e8"/>
+                    <constraint firstItem="2oS-oP-POJ" firstAttribute="leading" secondItem="HeB-By-cYA" secondAttribute="trailing" constant="8" id="MaX-Zp-UcX"/>
+                    <constraint firstItem="Pjh-hc-x9r" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Pkd-ow-9Er"/>
+                    <constraint firstAttribute="bottom" secondItem="2oS-oP-POJ" secondAttribute="bottom" id="Pol-4y-Vva"/>
+                    <constraint firstAttribute="trailing" secondItem="2oS-oP-POJ" secondAttribute="trailing" id="Whl-ZZ-Iip"/>
+                    <constraint firstAttribute="trailing" secondItem="AKD-bs-JkN" secondAttribute="trailing" id="Ydn-zc-GYe"/>
+                    <constraint firstItem="HeB-By-cYA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Z8k-Ax-olG"/>
+                    <constraint firstItem="HeB-By-cYA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="fF0-yC-OZD"/>
+                    <constraint firstItem="2oS-oP-POJ" firstAttribute="top" secondItem="Pjh-hc-x9r" secondAttribute="bottom" constant="6" id="lEB-WZ-Fka"/>
+                    <constraint firstItem="AKD-bs-JkN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="s6a-bS-ip9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="NameLab" destination="Pjh-hc-x9r" id="Pgd-QQ-tDt"/>
+                <outlet property="TextLab" destination="2oS-oP-POJ" id="skn-24-NgG"/>
+                <outlet property="TimeLab" destination="AKD-bs-JkN" id="w87-mT-74p"/>
+            </connections>
+            <point key="canvasLocation" x="521" y="481"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="xiaoxi.png" width="73" height="73"/>
+    </resources>
+</document>

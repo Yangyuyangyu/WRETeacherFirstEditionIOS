@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f984129a-682d-c944-b371-394409603f85",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f984129a-682d-c944-b371-394409603f85" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f984129a-682d-c944-b371-394409603f85" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F24C9973-D074-4EB5-9200-75AD654A1364",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f984129a-682d-c944-b371-394409603f85" : "xuemei_teacherAPPios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WeiRaoJiaoYu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WeiRaoJiaoYu.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.10.220:8886\/svn\/xuemei_teacherAPPios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f984129a-682d-c944-b371-394409603f85"
+    }
+  ]
+}
